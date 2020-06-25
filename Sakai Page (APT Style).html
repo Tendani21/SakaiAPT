@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <div class="topnav sticky">
+        <a><img src="logo.PNG" class="logo"/> </a>  
+        <a href="#welcome">Welcome</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#sitebrowser">Site Browser</a>
+        <a href="#training">Training</a>
+        <a href="#acknowledgement">Acknowledgement</a>
+        <div class="topnav-right">
+          <a href="signup.html">Sign up</a>
+          <a href="login.html"><button class="button">Login</button></a>
+          <a><img src="help.jpg" class="help"/> </a> 
+        </div>
+    </div>
+
+<!---
+    <nav class="navbar sticky" class="right">
+      <a><img src="logo.PNG" class="logo"/> </a>
+        <a href="#welcome">Welcome</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#sitebrowser">Site Browser</a>
+        <a href="#training">Training</a>
+        <a href="#acknowledgement">Acknowledgement</a>
+    </nav>
+-->
+    <title>Sakai Page - APT Style</title> 
+
+    <body>
+      <span class="img-container"> 
+        <img src="logo.PNG" alt="">
+      </span>
+      
+
+        <div id="welcome" class="hearder welcomediv divstyle">
+            <h2>Welcome</h2>
+            <h3>Message of the Day</h3>
+            <p class="center" class="spacing">There are currently no messages at this location</p>
+            <h3>Welcome to Sakai</h3>
+            <p>Welcome to the Sakai Demo. The Demo configuration 
+                was created as a way to let you get an instance of Sakai 
+                up and running quickly and easily. For information about 
+                Sakai please see <a href="http://www.sakaiproject.org" target="_blank">http://www.sakaiproject.org</a>.
+                For technical information please start at the README.md 
+                at <a href="https://github.com/sakaiproject/sakai" target="_blank">https://github.com/sakaiproject/sakai</a>.
+            </p>
+            <p>The information displayed here can be modified by the Sakai 
+                Administrator by editing the file sakai.properties configuration 
+                value "server.info.url" to point to the html file desired.
+            </p>
+        </div>
+
+        <div id="about" class="hearder backgroundcolour aboutdiv divstyle">
+            <h2>About</h2>
+            <h3>About Sakai</h3>
+            <p>Sakai is a set of software tools designed to help instructors, researchers, and students 
+                create websites for collaboration. Using a web browser, users choose from a set of 
+                features to create a site that meets their needs.
+                
+                Here are some common uses of Sakai:
+                <!---ul / bullets-->
+                . A researcher can create a website for collaboration on a project with colleagues.
+                . An instructor can create a website that serves as an online discussion board for students 
+                to collaborate on an assignment.
+                . A student can create a site for a study group or for extra curricular activities (depending 
+                on institutional policy).
+                
+                Sakai is a part of the Apereo Foundation (www.apereo.org).
+                
+                An overview of Sakai can be found at http://www.sakaiproject.org. For more information, 
+                contact the Sakai Community Coordinator.
+                
+                The information displayed here can be modified by the Sakai Administrator by editing the 
+                !gateway site.
+            </p>
+        </div>
+
+
+        <!--- This information require a 2 column table --> 
+        <div id="features" class="hearder featuresdiv divstyle" >
+            <h2>Features</h2>
+            <h3>Capabilities</h3>
+
+            <p>Sakai offers a variety of capabilities for use in course and project sites, including:</p>
+
+            <table >
+                <tr>
+                  <td>Home</td>
+                  <td>View recent announcements, discussions, and chat activity</td>
+                </tr>
+                <tr>
+                  <td>Announcements</td>
+                  <td>Post current, time-critical information</td>
+                </tr>
+                <tr>
+                    <td>Assignments</td>
+                    <td>Post assignments and receive submissions online</td>
+                </tr>
+                <tr>
+                    <td>Basiclti</td>
+                    <td>Launch and exchange information with externally-hosted tools</td>
+                </tr>
+                <tr>
+                    <td>Chat Room</td>
+                    <td>Participate in real-time, written conversations</td>
+                </tr>
+                <tr>
+                    <td>Drop Box</td>
+                    <td>Allow private file-sharing between instructors and students</td>
+                </tr>
+
+                <tr>
+                    <td>Entity Broker</td>
+                    <td>Provides a set of RESTful APIs that support interoperability between Sakai tools.</td>
+                  </tr>
+                  <tr>
+                    <td>Email Archive</td>
+                    <td>Maintain an archive of all email sent to the worksite's email list</td>
+                  </tr>
+                  <tr>
+                      <td>Gradebook</td>
+                      <td> Compute and store grades</td>
+                  </tr>
+                  <tr>
+                      <td>Help</td>
+                      <td>Access help documentation</td>
+                  </tr>
+                  <tr>
+                      <td>Lessons</td>
+                      <td>Can organize the course by unit, module, week, topic, or any other grouping the 
+                        instructor creates. Lessons leverages the power of other Sakai tools like Assignments, 
+                        and Test and Quizzes.</td>
+                  </tr>
+                  <tr>
+                      <td>Membership</td>
+                      <td>Choose sites in which you would like to participate</td>
+                  </tr>
+                  <tr>
+                    <td>Messages and Forums</td>
+                    <td>Create discussion forums and communicate between site groups and users using 
+                        internal mail.</td>
+                  </tr>
+                  <tr>
+                    <td>News</td>
+                    <td>Display an RSS feed from an external site</td>
+                  </tr>
+                  <tr>
+                    <td>Podcasts</td>
+                    <td>View podcasts</td>
+                  </tr>
+                  <tr>
+                    <td>Polls</td>
+                    <td>Create site-based surveys and polls</td>
+                  </tr>
+                  <tr>
+                    <td>Portfolios</td>
+                    <td>Supports portfolio-based activities with a suite of tools.</td>
+                  </tr>
+                  <tr>
+                    <td>Post'em</td>
+                    <td>Provides functionality for uploading .csv formatted files to display feedback 
+                        (e.g., comments, grades) to site participants.</td>
+                  </tr>
+                  <tr>
+                    <td>Preferences</td>
+                    <td>Set your personal preferences, such as time zone, tab order</td>
+                  </tr>
+                  <tr>
+                    <td>Profile</td>
+                    <td>Provides a Facebook-style interface for editing user profiles; includes Twitter integration</td>
+                  </tr>
+                  <tr>
+                    <td>Quartz Scheduler</td>
+                    <td>Schedule and run cron jobs</td>
+                  </tr>
+                  <tr>
+                    <td>Resources</td>
+                    <td>Add documents and URLs to your worksite</td>
+                  </tr>
+                  <tr>
+                    <td>Roster</td>
+                    <td>View list of site participants</td>
+                  </tr>
+                  <tr>
+                    <td>Schedule</td>
+                    <td>Keep track of important dates and deadlines on worksite calendar</td>
+                  </tr>
+                  <tr>
+                    <td>Search</td>
+                    <td>Provides search capabilities of Sakai content</td>
+                  </tr>
+                  <tr>
+                    <td>Section Info</td>
+                    <td>Manage sections or groups within a site</td>
+                  </tr>
+                  <tr>
+                    <td>Shortened URL Service</td>
+                    <td>A simple service that allows tools and services to shorten links to anything, either via the Java-based service or the Entity Provider.</td>
+                  </tr>
+                  <tr>
+                    <td>Signup tool</td>
+                    <td>Schedule instructor and ta office hours, study groups, and review sessions.</td>
+                  </tr>
+                  <tr>
+                    <td>Site Info</td>
+                    <td>View worksite profile and participants list</td>
+                  </tr>
+                  <tr>
+                    <td>Site Stats</td>
+                    <td>View site usage statistics</td>
+                  </tr>
+                  <tr>
+                    <td>Syllabus</td>
+                    <td>Create a worksite syllabus</td>
+                  </tr>
+                  <tr>
+                    <td>Tests & Quizzes</td>
+                    <td>Create, administer, and correct tests and quizzes online, and automatically feed the results 
+                        to the Gradebook</td>
+                  </tr>
+                  <tr>
+                    <td>Web Content</td>
+                    <td>Include external website content in your worksite</td>
+                  </tr>
+                  <tr>
+                    <td>Wiki</td>
+                    <td>Collaboratively edit simple web pages</td>
+                  </tr>
+                  <tr>
+                    <td>Worksite Setup</td>
+                    <td>Create and manage sites</td>
+                  </tr>
+                  <tr>
+                    <td>Webservices</td>
+                    <td>Includes a rich collection of web services for system admins</td>
+                  </tr>
+              </table>
+
+            <p>
+                The information displayed here can be modified by the Sakai Administrator by editing the !gateway site.
+            </p>
+              
+        </div>
+
+
+        
+        <div id="sitebrowser" class="hearder sitediv divstyle">
+
+                <h2>Site Browser</h2>
+                <h3>Capabilities</h3>
+                <p class="align">Complete the form below to find specifics sites.</p>
+
+            <form class="align">
+                <label class="thick">Type of Site:</label> <br>
+                <input type="radio" id="course" name="gender" value="course">
+                <label for="course">Course</label><br>
+
+                <label class="thick" for="term">Academic Term:</label>
+                <select id="any" name="any">
+                    <option value="any">Any</option>
+                </select><br>
+
+                <input type="radio" id="lti" name="gender" value="lti">
+                <label for="lti">lti</label><br>
+                <input type="radio" id="project" name="gender" value="project">
+                <label for="project">Project</label><br>
+                <input type="radio" id="any" name="gender" value="any">
+                <label for="any">Any</label><br>
+
+                <label>Optional: Search for sites by site name (e.g. ECON 101) or project name.</label><br>
+
+                <label for="search">Search for:</label>
+                <input type="text" id="search" name="search"><br>
+
+                <input type="submit" value="Search for sites">
+            </form>
+        </div>
+
+
+
+
+        <div id="training" class="hearder trainingdiv divstyle">
+            <h2>Training</h2>
+            <p>
+                Training is available on all aspects of Sakai. See the website <a href="https://www.sakailms.org/" target="_blank">sakaiproject.org</a> 
+                for more information. <br>
+                
+                The information displayed here can be modified by the Sakai Administrator 
+                by editing the !gateway site.
+            </p>
+        </div>
+
+
+
+
+        <div id="acknowledgement" class="hearder acknowlegediv backgroundcolour divstyle">
+
+            <p>Copyright 2003-2014 The Apereo Foundation. All rights reserved.</p>
+
+            <p>Sakai is licensed for use pursuant to the Educational Community License v. 2.0. Portions of Sakai are copyrighted by other parties, 
+              including the parties listed below. Please refer to the licenses directory for complete copyright and licensing information.
+            </p>
+
+            <h2>Acknowledgement</h2>
+
+            <p>
+              Portions of Sakai were developed by Cambridge University, Georgia Tech, Indiana University, Lancaster University, MIT, Oxford University, 
+              Stanford University, rSmart Corporation, The Australian National University, Unicon Corporation, Universidad Politechnica De Valencia, 
+              Universitat de Lleida, University of Cape Town, University of California Berkeley, University of Michigan, University of Toronto, 
+              Virginia Tech, and others. <a href="http://www.sakaiproject.org/" target="_blank">(http://www.sakaiproject.org/)</a>.
+            </p>
+              
+              <table >
+                <tr>
+                  <td>This product includes software developed by the Apache Software Foundation <a href="javascript:;">(http://www.apache.org)</a>.</td>
+                </tr>
+                <tr>
+                  <td>The jaxen library is provided by The Werken Company. <a href="javascript:;">(http://jaxen.codehaus.org/)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes software developed by the JDOM Project <a href="javascript:;">(http://www.jdom.org/)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes software developed by the Pluto Project <a href="javascript:;">(http://portals.apache.org/pluto/)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes software developed by the DOM4J Project <a href="javascript:;">(http://www.dom4j.org)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes software developed by the MX4J project <a href="javascript:;">(http://sourceforge.net/projects/mx4j)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes software developed by the SAXPath Project <a href="javascript:;">(http://sourceforge.net/projects/saxpath)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes copyrighted software developed by E. Wray Johnson for use and distribution by the Object Data Management Group <a href="javascript:;">(http://www.odmg.org/)</a>.</td>
+                </tr>
+                <tr>
+                  <td>Portions Copyright (c) 1999 Sun Microsystems, Inc. All Rights Reserved.</td>
+                </tr>
+                <tr>
+                  <td>WebSPHINX is Copyright (c) 1998-2002 - Carnegie Mellon University.</td>
+                </tr>
+                <tr>
+                  <td>This product includes Silk Icons developed by Mark James and are available at <a href="javascript:;">(http://www.famfamfam.com/lab/icons/silk/)</a></td>
+                </tr>
+                <tr>
+                  <td>This product includes both the CKEditor and FCKEditor, text editors for Internet software, Copyright (c) 2003 - 2011 CKSource - Frederico Knabben <a href="http://ckeditor.com/">(http://ckeditor.com/)</a>.</td>
+                </tr>
+                <tr>
+                  <td>This product includes jQuery - Copyright (c) 2006 John Resig <a href="http://www.jquery.com" target="_blank">http://www.jquery.com</a></td>
+                </tr>
+                <tr>
+                  <td>Portions Copyright IMS Global Learning Consortium <a href="http://www.imsglobal.org/" target="_blank">(http://www.imsglobal.org/)</a></td>
+                </tr>
+                <tr>
+                  <td>Sakai includes support for IMS Learning Tools Interoperability (LTI) 1.0, 1.1, and 2.0 Tool Consumer.</td>
+                </tr>
+                <tr>
+                  <td>This product makes use of jQuery fontIconPicker under the MIT License.</td>
+                </tr>
+                <tr>
+                  <td>This product makes use of Font Awesome by Dave Gandy under the MIT License. All brand icons are trademarks of their respective owners.</td>
+                </tr>
+              </table >
+        </div>
+
+
+
+        <!---Footer-->
+        
+        <footer id="footer" > 
+            <p>
+                Gateway Accessibility Information The Sakai Project <br>
+                Powered by Sakai <br>
+                <small>Copyright 2003-2020 The Apereo Foundation. All rights reserved. Portions of Sakai are copyrighted by other parties as described in the Acknowledgments screen.</small><br>
+                Build Info: <br>
+                Server Time: <br>
+            </p>
+        </footer>
+
+    </body>
+ 
+</html>

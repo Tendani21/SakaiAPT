@@ -1,0 +1,178 @@
+.hearder {
+    text-align: center;
+    line-height: 2;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  float: right;
+}
+
+/*Styling for all paragraphs*/
+p  {  
+  text-align: justify;
+  font-size: 110%;
+  line-height: 1.6;
+}
+
+/*styling for the welcome div*/
+.welcomediv{
+  padding-right: 480px;
+  padding-left: 480px;
+}
+
+.aboutdiv{
+  padding-right: 340px;
+  padding-left: 340px;
+  text-align: center;
+}
+
+.featuresdiv{
+  padding-right: 300px;
+  padding-left: 300px;
+  margin-top: inherit;
+}
+
+table{
+  /*width:100%;*/
+  text-align: left;
+   border-spacing: 50px 0;
+}
+
+.sitediv{
+  padding-right: 400px;
+  padding-left: 500px;
+  margin-top: inherit;
+  background-color: #3FA6CD;
+  color:#ffffff;
+  
+}
+
+/*logo display before the welcome div*/
+.img-container {
+  text-align: center;
+  display: block;
+  padding-top: 290px;
+  padding-bottom: 190px
+}
+
+.align{
+  text-align: left;
+  padding-left: 90px;
+
+}
+/*Find a way of coding this that sync with all elements on the div*/
+.tab{
+
+  position:absolute;left:650px; 
+  
+}
+
+.trainingdiv{
+  padding-right: 480px;
+  padding-left: 480px;
+  margin-top: inherit;
+}
+
+.acknowlegediv{
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+
+
+/*appled to the divs*/
+.divstyle{
+    padding-bottom: 150px;
+    padding-top: 80px;  
+}
+
+.backgroundcolour{
+    background-color: #EBEBEB;
+    
+}
+
+footer{
+    background-color: #6a6c6e;
+    color: #ffffff;
+    font-size: 70%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.logo {
+  display: inline-block;
+  vertical-align: left;
+  width: 35px;
+  height: 25px;
+  
+}
+
+button{
+  background-color: #3FA6CD;
+  border: none;
+  color: #ffffff;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.help{
+  display: inline-block;
+  text-align: center;
+	padding-top: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #3FA6CD;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
