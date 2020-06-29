@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-	font-weight: bold;
+	font-weight: normal;
 	margin: 0;
 }
 
@@ -33,9 +33,7 @@ p {
 	margin: 20px 0 30px;
 }
 
-span {
-	font-size: 12px;
-}
+
 
 a {
 	color: #333;
@@ -211,20 +209,6 @@ input {
 	transform: translateX(20%);
 }
 
-.social-container {
-	margin: 20px 0;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}
 
 footer {
     background-color: #222;
