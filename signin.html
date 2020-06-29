@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <link rel="stylesheet" href="loginstyle.css">
+        <link rel="stylesheet" href="signinstyle.css">
     </head>
 
 <div class="container" id="container">
@@ -12,6 +12,7 @@
 			<input type="text" placeholder="Name" />
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
+			<input type="confpassword" placeholder="ConfPassword" />
 			<button>Sign Up</button>
 		</form>
 	</div>
@@ -19,30 +20,35 @@
 	<!---- Sign up container -->
 	<div class="form-container sign-in-container">
 		<form action="#">
-			<h1>Login</h1> <br>
+			<h1>Sign In</h1> <br><br>
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Login</button>
+			<input type="confpassword" placeholder="Confirm Password" /> <br><br>
+			<button>Sign In</button>
 		</form>
 	</div>
 
 	<!---- Sign in container -->
 	<div class="overlay-container">
 		<div class="overlay">
+			<!--Blue container-->
 			<div class="overlay-panel overlay-left">
 				<h1>Welcome Back!</h1>
 				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Sign In</button>
+				<button class="ghost" id="signIn">Login</button>
 			</div>
+
+			<!--Text that is displayed in the Blue container-->
 			<div class="overlay-panel overlay-right">
-				<h1>No Account?</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp">Sign Up</button>
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signUp">Login</button>
 			</div>
 		</div>
 	</div>
 </div>
+
+
 
 <footer>
 	<p>
